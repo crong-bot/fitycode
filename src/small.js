@@ -500,8 +500,9 @@
     ParserStart: 'statements',
   };
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-    export default grammar
+    module.exports = grammar;
   } else {
     window.grammar = grammar;
   }
 })();
+export default grammar
