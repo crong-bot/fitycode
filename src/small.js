@@ -500,7 +500,7 @@
     ParserStart: 'statements',
   };
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-    module.exports = grammar;
+    export default grammar
   } else {
     window.grammar = grammar;
   }
