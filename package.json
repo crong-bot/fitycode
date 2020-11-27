@@ -2,7 +2,7 @@
   "name": "pale",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://crong-bot.github.io/fityplay/",
+  "homepage": "https://crong-bot.github.io/fitycode/",
   "dependencies": {
     "@shieldsbetter/nearley-indentify": "0.0.12",
     "@testing-library/jest-dom": "^5.11.4",
